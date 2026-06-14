@@ -1,0 +1,15 @@
+datasource db {
+  provider = "mysql"
+  url      = "mysql://usuario_treinamento:senha_segura123@localhost:3306/sistema_db"
+}
+
+generator client {
+  provider = "prisma-client-js"
+}
+
+model Usuario {
+  id    Int    @id @default(autoincrement())
+  nome  String?  
+  tipo String? 
+  @@map("usuarios")
+}

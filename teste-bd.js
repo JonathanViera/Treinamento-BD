@@ -5,7 +5,7 @@ const prisma = new PrismaClient();
 
 async function rodarSimulacaoMercado() {
   console.log("==================================================================");
-  console.log("🛒 SIMULAÇÃO: LISTA DE COMPRAS DE MERCADO (PRISMA NATIVO)");
+  console.log("🛒 SIMULAÇÃO: LISTA DE COMPRAS DE MERCADO ");
   console.log("==================================================================\n");
 
   try {

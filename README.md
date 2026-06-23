@@ -34,7 +34,8 @@ Documentação MySQL:
 
 Guia Rápido para instalar o Prisma:
 
-      npm install prisma --save-dev  # ou usando yarn, pnpm ou bun  
+      npm install prisma@6.19.3 --save-dev # ou usando yarn, pnpm ou bun 
+      npm install @prisma/client@6.19.3    # ou usando yarn, pnpm ou bun  
     
       npx prisma init --datasource-provider postgresql  # Substitua postgresql pelo seu banco de dados (ex: mysql, sqlite, mongodb ou sqlserver):
 
